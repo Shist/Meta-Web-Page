@@ -1,3 +1,4 @@
+/* font "DM Mono" */
 @font-face {
   font-family: "DM Mono";
   /* IE9 Compat Modes */
@@ -19,6 +20,7 @@
       format("woff2");
 }
 
+/* font "Audiowide" */
 @font-face {
   font-family: "Audiowide";
   /* IE9 Compat Modes */
@@ -42,6 +44,7 @@
       url(../../fonts/Audiowide-Regular/Audiowide-Regular.woff2) format("woff2");
 }
 
+/* font "Inter" */
 @font-face {
   font-family: "Inter";
   /* IE9 Compat Modes */
@@ -61,4 +64,19 @@
       format("woff"),
     /* Modern Browsers */ url(../../fonts/Inter-Regular/Inter-Regular.woff2)
       format("woff2");
+}
+
+$font-label: "DM Mono";
+$font-headline: "Audiowide";
+$font-text: "Inter";
+
+$light-green: #8dfd1b;
+$gray-h: #a8a8a8;
+$cards-bg: #222222;
+$faq-text: #c4c4c4;
+
+.global-container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
 }
