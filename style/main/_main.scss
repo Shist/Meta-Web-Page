@@ -6,8 +6,10 @@
     max-width: 1440px;
     width: 100%;
     .main__record-section-wrapper {
+      min-height: 653px;
       display: flex;
       align-items: center;
+      margin-bottom: 110px;
       .main__record-info-wrapper {
         flex-basis: 40%;
         min-height: 460px;
@@ -59,8 +61,109 @@
           }
         }
       }
-      .main__record-img {
+      .main__record-img-wrapper {
         flex-basis: 60%;
+        .main__record-img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+    .main__nft-wrapper {
+      min-height: 545px;
+      max-width: 1160px;
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      .main__nft-label-img-wrapper {
+        max-width: 360px;
+        width: 100%;
+        padding: 7px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+      }
+      .main__nft-upper-label {
+        font-family: "Audiowide";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 38px;
+        line-height: 45px;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+      }
+      .main__nft-bottom-label {
+        margin-bottom: 41px;
+        font-family: "Audiowide";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 38px;
+        line-height: 45px;
+        text-align: center;
+        text-transform: uppercase;
+        color: $gray-h;
+      }
+      .main__nft-img {
+        width: 100%;
+        height: auto;
+      }
+      .main__nft-text-info-wrapper {
+        max-width: 580px;
+        width: 100%;
+        padding-block: 7px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+      }
+      .main__nft-text {
+        margin-bottom: 17px;
+        &_first {
+            margin-top: 32px;
+        }
+        &_last {
+            margin-bottom: 36px;
+        }
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: white;
+      }
+      .main__nft-button {
+        max-width: 246px;
+        width: 100%;
+        padding: 13px 33px;
+        font-family: "DM Mono";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        text-align: center;
+        text-transform: capitalize;
+        color: white;
+        background-color: black;
+        border: 1px solid $light-green;
+        transition: 0.3s;
+        &:hover {
+            transform: scale(1.2);
+            color: black;
+            background-color: $light-green;
+        }
+        &:active {
+            transition: 0s;
+            color: white;
+        }
+      }
+    }
+
+    .main__guitar-img-wrapper {
+      min-height: 240px;
+      .main__guitar-img {
+        width: 100%;
+        height: auto;
       }
     }
   }

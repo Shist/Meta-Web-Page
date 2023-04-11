@@ -56,9 +56,7 @@
       </header>
       <main class="main">
         <div class="main__container">
-          <!-- Make this flex-row (40% : 60%) -->
           <div class="main__record-section-wrapper">
-            <!-- Make this flex-column, space-around -->
             <div class="main__record-info-wrapper">
               <h1 class="main__record-headline">Meta record label</h1>
               <p class="main__record-text">
@@ -67,17 +65,19 @@
               </p>
               <button class="main__record-btn">Learn more</button>
             </div>
-            <img
-              src="./img/main/waves/three-waves.png"
-              alt="three waves"
-              class="main__record-img"
-            />
+            <div class="main__record-img-wrapper">
+              <img
+                src="./img/main/waves/three-waves.png"
+                alt="three waves"
+                class="main__record-img"
+              />
+            </div>
           </div>
-          <!-- Make this flex-row, space-between -->
           <div class="main__nft-wrapper">
             <!-- Make this flex-column, space-between -->
             <div class="main__nft-label-img-wrapper">
-              <h2 class="main__nft-label">Wave nft collection of 777</h2>
+              <h2 class="main__nft-upper-label">Wave nft</h2>
+              <h2 class="main__nft-bottom-label">Collection of 777</h2>
               <img
                 src="./img/main/waves/wave-nft.png"
                 alt="nft wave"
@@ -93,7 +93,7 @@
                   and partners.
                 </p>
               </div>
-              <p class="main__nft-text">
+              <p class="main__nft-text_first main__nft-text">
                 Hac habitasse platea dictumst vestibulum rhoncus est. Sit amet
                 dictum sit amet justo. Tortor aliquam nulla facilisi cras.
               </p>
@@ -104,7 +104,7 @@
                 Et malesuada fames ac turpis egestas sed tempus. Enim sit amet
                 venenatis urna cursus eget.
               </p>
-              <p class="main__nft-text">
+              <p class="main__nft-text_last main__nft-text">
                 Maecenas ultricies mi eget mauris pharetra et ultrices. A
                 condimentum vitae sapien pellentesque habitant morbi.
               </p>
