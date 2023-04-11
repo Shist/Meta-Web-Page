@@ -22,7 +22,7 @@
   /* Trying to find out that font in system */
   src: local("Inter"), url(../../fonts/Inter-Regular/Inter-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Inter-Regular/Inter-Regular.otf) format("otf"), url(../../fonts/Inter-Regular/Inter-Regular.svg#Inter-Regular) format("svg"), url(../../fonts/Inter-Regular/Inter-Regular.ttf) format("truetype"), url(../../fonts/Inter-Regular/Inter-Regular.woff) format("woff"), url(../../fonts/Inter-Regular/Inter-Regular.woff2) format("woff2");
 }
-.main__container .main__faq-wrapper, .main__container .main__partners-wrapper .main__partners-cards-wrapper, .main__container .main__partners-wrapper, .main__container .main__story-wrapper, .main__container .main__artists-wrapper, .main__container .main__nft-wrapper {
+.main__container .main__team-wrapper, .main__container .main__faq-wrapper, .main__container .main__partners-wrapper .main__partners-cards-wrapper, .main__container .main__partners-wrapper, .main__container .main__story-wrapper, .main__container .main__artists-wrapper, .main__container .main__nft-wrapper {
   max-width: 1160px;
   width: 100%;
   margin-top: 0;
@@ -53,7 +53,7 @@
   /* Trying to find out that font in system */
   src: local("Inter"), url(../../fonts/Inter-Regular/Inter-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Inter-Regular/Inter-Regular.otf) format("otf"), url(../../fonts/Inter-Regular/Inter-Regular.svg#Inter-Regular) format("svg"), url(../../fonts/Inter-Regular/Inter-Regular.ttf) format("truetype"), url(../../fonts/Inter-Regular/Inter-Regular.woff) format("woff"), url(../../fonts/Inter-Regular/Inter-Regular.woff2) format("woff2");
 }
-.main__container .main__faq-wrapper, .main__container .main__partners-wrapper .main__partners-cards-wrapper, .main__container .main__partners-wrapper, .main__container .main__story-wrapper, .main__container .main__artists-wrapper, .main__container .main__nft-wrapper {
+.main__container .main__team-wrapper, .main__container .main__faq-wrapper, .main__container .main__partners-wrapper .main__partners-cards-wrapper, .main__container .main__partners-wrapper, .main__container .main__story-wrapper, .main__container .main__artists-wrapper, .main__container .main__nft-wrapper {
   max-width: 1160px;
   width: 100%;
   margin-top: 0;
@@ -150,7 +150,7 @@
   /* Trying to find out that font in system */
   src: local("Inter"), url(../../fonts/Inter-Regular/Inter-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Inter-Regular/Inter-Regular.otf) format("otf"), url(../../fonts/Inter-Regular/Inter-Regular.svg#Inter-Regular) format("svg"), url(../../fonts/Inter-Regular/Inter-Regular.ttf) format("truetype"), url(../../fonts/Inter-Regular/Inter-Regular.woff) format("woff"), url(../../fonts/Inter-Regular/Inter-Regular.woff2) format("woff2");
 }
-.main__container .main__faq-wrapper, .main__container .main__partners-wrapper .main__partners-cards-wrapper, .main__container .main__partners-wrapper, .main__container .main__story-wrapper, .main__container .main__artists-wrapper, .main__container .main__nft-wrapper {
+.main__container .main__team-wrapper, .main__container .main__faq-wrapper, .main__container .main__partners-wrapper .main__partners-cards-wrapper, .main__container .main__partners-wrapper, .main__container .main__story-wrapper, .main__container .main__artists-wrapper, .main__container .main__nft-wrapper {
   max-width: 1160px;
   width: 100%;
   margin-top: 0;
@@ -542,6 +542,23 @@
   display: flex;
   flex-direction: column;
 }
+.main__container .main__team-label {
+  margin-bottom: 120px;
+  text-align: center;
+  font-family: "Audiowide";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 79px;
+  line-height: 88px;
+  text-transform: uppercase;
+  color: white;
+}
+.main__container .main__team-wrapper {
+  min-height: 552px;
+  margin-bottom: 145px;
+  display: flex;
+  justify-content: space-between;
+}
 
 /* font "DM Mono" */
 @font-face {
@@ -567,7 +584,7 @@
   /* Trying to find out that font in system */
   src: local("Inter"), url(../../fonts/Inter-Regular/Inter-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Inter-Regular/Inter-Regular.otf) format("otf"), url(../../fonts/Inter-Regular/Inter-Regular.svg#Inter-Regular) format("svg"), url(../../fonts/Inter-Regular/Inter-Regular.ttf) format("truetype"), url(../../fonts/Inter-Regular/Inter-Regular.woff) format("woff"), url(../../fonts/Inter-Regular/Inter-Regular.woff2) format("woff2");
 }
-.main__container .main__nft-wrapper, .main__container .main__artists-wrapper, .main__container .main__story-wrapper, .main__container .main__partners-wrapper, .main__container .main__partners-wrapper .main__partners-cards-wrapper, .main__container .main__faq-wrapper {
+.main__container .main__nft-wrapper, .main__container .main__artists-wrapper, .main__container .main__story-wrapper, .main__container .main__partners-wrapper, .main__container .main__partners-wrapper .main__partners-cards-wrapper, .main__container .main__faq-wrapper, .main__container .main__team-wrapper {
   max-width: 1160px;
   width: 100%;
   margin-top: 0;
@@ -627,6 +644,12 @@
 }
 .social-link__telegram {
   background-image: url(../../img/icons/icon-telegram.svg);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.social-link__linked-in {
+  background-image: url(../../img/icons/icon-linked-in.svg);
   background-size: 20px;
   background-repeat: no-repeat;
   background-position: center;
@@ -809,4 +832,74 @@
   font-size: 12px;
   line-height: 19px;
   color: #c4c4c4;
+}
+
+.teammate-card {
+  max-width: 320px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.teammate-card__img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 19px;
+}
+.teammate-card__name {
+  margin-bottom: 18px;
+  font-family: "DM Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+.teammate-card__role {
+  margin-bottom: 22px;
+  font-family: "DM Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #8dfd1b;
+}
+.teammate-card__description {
+  max-width: 238px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  text-align: center;
+  color: white;
+}
+
+.twitter-linked-in-wrapper {
+  min-height: 36px;
+  max-width: 84px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 22px;
+}
+.twitter-linked-in-wrapper__list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.twitter-linked-in-wrapper__list .twitter-linked-in-wrapper__list-item {
+  transition: 0.3s;
+}
+.twitter-linked-in-wrapper__list .twitter-linked-in-wrapper__list-item:hover {
+  transform: scale(1.2);
+}
+.twitter-linked-in-wrapper__list .twitter-linked-in-wrapper__list-item:hover .social-link {
+  background-color: #8dfd1b;
 }/*# sourceMappingURL=glStyle.css.map */

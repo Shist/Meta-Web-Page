@@ -388,5 +388,23 @@
         flex-direction: column;
       }
     }
+    .main__team-label {
+      margin-bottom: 120px;
+      text-align: center;
+      font-family: "Audiowide";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 79px;
+      line-height: 88px;
+      text-transform: uppercase;
+      color: white;
+    }
+    .main__team-wrapper {
+        min-height: 552px;
+        @extend %default-wrapper;
+        margin-bottom: 145px;
+        display: flex;
+        justify-content: space-between;
+    }
   }
 }

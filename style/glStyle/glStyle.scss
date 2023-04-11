@@ -59,6 +59,12 @@
     background-repeat: no-repeat;
     background-position: center;
   }
+  &__linked-in {
+    background-image: url(../../img/icons/icon-linked-in.svg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 
 .green-wrapper {
@@ -239,5 +245,75 @@
     font-size: 12px;
     line-height: 19px;
     color: $faq-text;
+  }
+}
+
+.teammate-card {
+  max-width: 320px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  &__img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 19px;
+  }
+  &__name {
+    margin-bottom: 18px;
+    font-family: "DM Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+  }
+  &__role {
+    margin-bottom: 22px;
+    font-family: "DM Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $light-green;
+  }
+  &__description {
+    max-width: 238px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    text-align: center;
+    color: white;
+  }
+}
+
+.twitter-linked-in-wrapper {
+  min-height: 36px;
+  max-width: 84px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 22px;
+  &__list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .twitter-linked-in-wrapper__list-item {
+      transition: 0.3s;
+      &:hover {
+        transform: scale(1.2);
+        .social-link {
+          background-color: $light-green;
+        }
+      }
+    }
   }
 }
