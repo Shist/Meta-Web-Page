@@ -285,6 +285,7 @@
   color: white;
   background-color: black;
   border: 1px solid #8dfd1b;
+  cursor: pointer;
   transition: 0.3s;
 }
 .main__container .main__nft-wrapper .main__nft-button:hover {
@@ -308,6 +309,7 @@
   color: white;
 }
 .main__container .main__artists-wrapper {
+  min-height: 678px;
   max-width: 1160px;
   width: 100%;
   margin: 0 auto 180px;
@@ -315,6 +317,94 @@
   gap: 60px;
   grid-template-rows: repeat(2, 309px);
   grid-template-columns: repeat(4, 245px);
+}
+.main__container .main__story-wrapper {
+  min-height: 643px;
+  max-width: 1160px;
+  width: 100%;
+  margin: 0 auto 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main__container .main__story-wrapper .main__story-headline {
+  font-family: "Audiowide";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 37px;
+  line-height: 45px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+.main__container .main__story-wrapper .main__story-headline_gray-part {
+  font-size: 38px;
+  color: #a8a8a8;
+}
+.main__container .main__story-wrapper .main__story-info-wrapper {
+  display: flex;
+}
+.main__container .main__story-wrapper .main__story-info-wrapper .main__story-menu-wrapper {
+  flex-basis: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.main__container .main__story-wrapper .main__story-info-wrapper .main__story-menu-wrapper .main__story-menu-label {
+  padding: 28px;
+  font-family: "DM Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.main__container .main__story-wrapper .main__story-info-wrapper .main__story-menu-wrapper .main__story-menu-label_selected {
+  color: #8dfd1b;
+  background-color: #222222;
+}
+.main__container .main__story-wrapper .main__story-info-wrapper .main__story-menu-wrapper .main__story-menu-label:hover {
+  color: #8dfd1b;
+  background-color: #222222;
+}
+.main__container .main__story-wrapper .main__story-info-wrapper .main__story-info-wrapper {
+  flex-basis: 75%;
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #222222;
+}
+.main__container .main__story-wrapper .main__story-info-wrapper .main__story-info-wrapper .main__story-founders-img {
+  max-width: 172px;
+  width: 100%;
+  height: auto;
+}
+.main__container .main__story-wrapper .main__story-info-wrapper .main__story-info-wrapper .main__story-text-info-wrapper {
+  max-width: 546px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.main__container .main__story-wrapper .main__story-info-wrapper .main__story-info-wrapper .main__story-text-info-wrapper .main__story-text-info {
+  max-width: 522px;
+  margin-bottom: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: white;
+}
+.main__container .main__story-wrapper .main__story-info-wrapper .main__story-info-wrapper .main__story-text-info-wrapper .main__story-text-info_first {
+  margin-top: 32px;
+}
+.main__container .main__story-wrapper .main__story-info-wrapper .main__story-info-wrapper .main__story-text-info-wrapper .main__story-text-info_last {
+  margin-bottom: 0;
 }
 .main__container .main__guitar-img-wrapper {
   min-height: 240px;
