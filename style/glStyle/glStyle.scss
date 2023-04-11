@@ -18,6 +18,13 @@
     .socials__list-item {
       width: 36px;
       height: 36px;
+      transition: 0.3s;
+      &:hover {
+        transform: scale(1.2);
+        .social-link {
+            background-color: $light-green;
+        }
+      }
     }
   }
 }
@@ -27,6 +34,7 @@
   width: 36px;
   height: 36px;
   background-color: white;
+  transition: 0.3s;
   &__twitter {
     background-image: url(../../img/icons/icon-twitter.svg);
     background-size: 20px;

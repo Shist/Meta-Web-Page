@@ -73,25 +73,43 @@
   max-width: 350px;
   width: 100%;
   display: flex;
-  align-items: center;
 }
 .header__navigation .header__nav-socials-wrapper .header__nav .header__nav-list {
   width: 100%;
   display: flex;
-  list-style: none;
   justify-content: space-around;
 }
 .header__navigation .header__nav-socials-wrapper .header__nav .header__nav-list .header__nav-list-item {
   flex-basis: 30%;
+  display: flex;
+  justify-content: center;
+  transition: 0.3s;
 }
 .header__navigation .header__nav-socials-wrapper .header__nav .header__nav-list .header__nav-list-item .header__link {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
+  padding-inline: 4px;
   font-family: "DM Mono";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
-  color: #ffffff;
+  color: white;
+  transition: 0.7s;
+}
+.header__navigation .header__nav-socials-wrapper .header__nav .header__nav-list .header__nav-list-item:hover {
+  transform: scale(1.2);
+  background-color: #8dfd1b;
+}
+.header__navigation .header__nav-socials-wrapper .header__nav .header__nav-list .header__nav-list-item:hover .header__link {
+  color: black;
+}
+.header__navigation .header__nav-socials-wrapper .header__nav .header__nav-list .header__nav-list-item:active .header__link {
+  transition: 0s;
+  color: white;
 }
 
 /* font "DM Mono" */
@@ -118,6 +136,72 @@
   /* Trying to find out that font in system */
   src: local("Inter"), url(../../fonts/Inter-Regular/Inter-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Inter-Regular/Inter-Regular.otf) format("otf"), url(../../fonts/Inter-Regular/Inter-Regular.svg#Inter-Regular) format("svg"), url(../../fonts/Inter-Regular/Inter-Regular.ttf) format("truetype"), url(../../fonts/Inter-Regular/Inter-Regular.woff) format("woff"), url(../../fonts/Inter-Regular/Inter-Regular.woff2) format("woff2");
 }
+.main {
+  background-color: black;
+}
+.main__container {
+  max-width: 1440px;
+  width: 100%;
+}
+.main__container .main__record-section-wrapper {
+  display: flex;
+  align-items: center;
+}
+.main__container .main__record-section-wrapper .main__record-info-wrapper {
+  flex-basis: 40%;
+  min-height: 460px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px 70px;
+}
+.main__container .main__record-section-wrapper .main__record-info-wrapper .main__record-headline {
+  margin-bottom: 43px;
+  font-family: "Audiowide";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 51px;
+  line-height: 61px;
+  text-transform: uppercase;
+  color: white;
+}
+.main__container .main__record-section-wrapper .main__record-info-wrapper .main__record-text {
+  margin-bottom: 115px;
+  max-width: 340px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: white;
+}
+.main__container .main__record-section-wrapper .main__record-info-wrapper .main__record-btn {
+  max-width: 204px;
+  padding: 20px 39px;
+  font-family: "DM Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: capitalize;
+  color: black;
+  background-color: #8dfd1b;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.main__container .main__record-section-wrapper .main__record-info-wrapper .main__record-btn:hover {
+  transform: scale(1.2);
+}
+.main__container .main__record-section-wrapper .main__record-info-wrapper .main__record-btn:active {
+  transition: 0s;
+  color: white;
+}
+.main__container .main__record-section-wrapper .main__record-img {
+  flex-basis: 60%;
+}
+
 /* font "DM Mono" */
 @font-face {
   font-family: "DM Mono";
@@ -159,6 +243,13 @@
 .socials .socials__list .socials__list-item {
   width: 36px;
   height: 36px;
+  transition: 0.3s;
+}
+.socials .socials__list .socials__list-item:hover {
+  transform: scale(1.2);
+}
+.socials .socials__list .socials__list-item:hover .social-link {
+  background-color: #8dfd1b;
 }
 
 .social-link {
@@ -166,6 +257,7 @@
   width: 36px;
   height: 36px;
   background-color: white;
+  transition: 0.3s;
 }
 .social-link__twitter {
   background-image: url(../../img/icons/icon-twitter.svg);
