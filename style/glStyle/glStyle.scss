@@ -12,7 +12,7 @@
 .socials {
   max-width: 180px;
   width: 100%;
-  .socials__list {
+  &__list {
     display: flex;
     justify-content: space-between;
     .socials__list-item {
@@ -71,5 +71,25 @@
     font-size: 21px;
     line-height: 32px;
     color: $light-green;
+  }
+}
+
+.artist-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  &__img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  &__name {
+    font-family: "DM Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: white;
   }
 }

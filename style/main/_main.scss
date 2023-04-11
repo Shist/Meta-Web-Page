@@ -73,7 +73,7 @@
       min-height: 545px;
       max-width: 1160px;
       width: 100%;
-      margin: 0 auto;
+      margin: 0 auto 120px;
       display: flex;
       justify-content: space-between;
       .main__nft-label-img-wrapper {
@@ -120,10 +120,10 @@
       .main__nft-text {
         margin-bottom: 17px;
         &_first {
-            margin-top: 32px;
+          margin-top: 32px;
         }
         &_last {
-            margin-bottom: 36px;
+          margin-bottom: 36px;
         }
         font-family: "Inter";
         font-style: normal;
@@ -148,15 +148,35 @@
         border: 1px solid $light-green;
         transition: 0.3s;
         &:hover {
-            transform: scale(1.2);
-            color: black;
-            background-color: $light-green;
+          transform: scale(1.2);
+          color: black;
+          background-color: $light-green;
         }
         &:active {
-            transition: 0s;
-            color: white;
+          transition: 0s;
+          color: white;
         }
       }
+    }
+    .main__artists-label {
+      margin-bottom: 120px;
+      text-align: center;
+      font-family: "Audiowide";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 79px;
+      line-height: 88px;
+      text-transform: uppercase;
+      color: white;
+    }
+    .main__artists-wrapper {
+        max-width: 1160px;
+        width: 100%;
+        margin: 0 auto 180px;
+        display: grid;
+        gap: 60px;
+        grid-template-rows: repeat(2, 309px);
+        grid-template-columns: repeat(4, 245px);
     }
 
     .main__guitar-img-wrapper {
