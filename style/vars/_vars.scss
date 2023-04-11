@@ -74,3 +74,10 @@ $light-green: #8dfd1b;
 $gray-h: #a8a8a8;
 $cards-bg: #222222;
 $faq-text: #c4c4c4;
+
+%default-wrapper {
+  max-width: 1160px;
+  width: 100%;
+  margin-top: 0;
+  margin-inline: auto;
+}

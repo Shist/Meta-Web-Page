@@ -208,3 +208,36 @@
   height: 40px;
   background-color: $light-green;
 }
+
+.partner-card {
+  &__partner-logo {
+    max-width: 322px;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.faq-question {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 22px 35px 20px 31px;
+  background-color: $cards-bg;
+  &__question {
+    margin-bottom: 10px;
+    font-family: "DM Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+  }
+  &__answer {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    color: $faq-text;
+  }
+}

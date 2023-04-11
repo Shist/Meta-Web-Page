@@ -22,6 +22,13 @@
   /* Trying to find out that font in system */
   src: local("Inter"), url(../../fonts/Inter-Regular/Inter-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Inter-Regular/Inter-Regular.otf) format("otf"), url(../../fonts/Inter-Regular/Inter-Regular.svg#Inter-Regular) format("svg"), url(../../fonts/Inter-Regular/Inter-Regular.ttf) format("truetype"), url(../../fonts/Inter-Regular/Inter-Regular.woff) format("woff"), url(../../fonts/Inter-Regular/Inter-Regular.woff2) format("woff2");
 }
+.main__container .main__faq-wrapper, .main__container .main__partners-wrapper .main__partners-cards-wrapper, .main__container .main__partners-wrapper, .main__container .main__story-wrapper, .main__container .main__artists-wrapper, .main__container .main__nft-wrapper {
+  max-width: 1160px;
+  width: 100%;
+  margin-top: 0;
+  margin-inline: auto;
+}
+
 /* font "DM Mono" */
 @font-face {
   font-family: "DM Mono";
@@ -46,6 +53,13 @@
   /* Trying to find out that font in system */
   src: local("Inter"), url(../../fonts/Inter-Regular/Inter-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Inter-Regular/Inter-Regular.otf) format("otf"), url(../../fonts/Inter-Regular/Inter-Regular.svg#Inter-Regular) format("svg"), url(../../fonts/Inter-Regular/Inter-Regular.ttf) format("truetype"), url(../../fonts/Inter-Regular/Inter-Regular.woff) format("woff"), url(../../fonts/Inter-Regular/Inter-Regular.woff2) format("woff2");
 }
+.main__container .main__faq-wrapper, .main__container .main__partners-wrapper .main__partners-cards-wrapper, .main__container .main__partners-wrapper, .main__container .main__story-wrapper, .main__container .main__artists-wrapper, .main__container .main__nft-wrapper {
+  max-width: 1160px;
+  width: 100%;
+  margin-top: 0;
+  margin-inline: auto;
+}
+
 .header {
   background-color: black;
 }
@@ -136,6 +150,13 @@
   /* Trying to find out that font in system */
   src: local("Inter"), url(../../fonts/Inter-Regular/Inter-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Inter-Regular/Inter-Regular.otf) format("otf"), url(../../fonts/Inter-Regular/Inter-Regular.svg#Inter-Regular) format("svg"), url(../../fonts/Inter-Regular/Inter-Regular.ttf) format("truetype"), url(../../fonts/Inter-Regular/Inter-Regular.woff) format("woff"), url(../../fonts/Inter-Regular/Inter-Regular.woff2) format("woff2");
 }
+.main__container .main__faq-wrapper, .main__container .main__partners-wrapper .main__partners-cards-wrapper, .main__container .main__partners-wrapper, .main__container .main__story-wrapper, .main__container .main__artists-wrapper, .main__container .main__nft-wrapper {
+  max-width: 1160px;
+  width: 100%;
+  margin-top: 0;
+  margin-inline: auto;
+}
+
 .main {
   background-color: black;
 }
@@ -209,9 +230,7 @@
 }
 .main__container .main__nft-wrapper {
   min-height: 545px;
-  max-width: 1160px;
-  width: 100%;
-  margin: 0 auto 120px;
+  margin-bottom: 120px;
   display: flex;
   justify-content: space-between;
 }
@@ -310,19 +329,15 @@
 }
 .main__container .main__artists-wrapper {
   min-height: 678px;
-  max-width: 1160px;
-  width: 100%;
-  margin: 0 auto 180px;
+  margin-bottom: 180px;
   display: grid;
   gap: 60px;
-  grid-template-rows: repeat(2, 309px);
-  grid-template-columns: repeat(4, 245px);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 .main__container .main__story-wrapper {
   min-height: 643px;
-  max-width: 1160px;
-  width: 100%;
-  margin: 0 auto 180px;
+  margin-bottom: 180px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -466,6 +481,67 @@
   justify-content: space-evenly;
   align-items: center;
 }
+.main__container .main__partners-wrapper {
+  min-height: 210px;
+  margin-bottom: 258px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.main__container .main__partners-wrapper .main__partners-label {
+  font-family: "DM Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #8dfd1b;
+}
+.main__container .main__partners-wrapper .main__partners-cards-wrapper {
+  display: grid;
+  row-gap: 85px;
+  -moz-column-gap: 60px;
+       column-gap: 60px;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+}
+.main__container .main__faq-wrapper {
+  min-height: 544px;
+  margin-bottom: 83px;
+  display: flex;
+  justify-content: space-between;
+}
+.main__container .main__faq-wrapper .main__faq-label-and-img-wrapper {
+  max-width: 360px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main__container .main__faq-wrapper .main__faq-label-and-img-wrapper .main__faq-label {
+  font-family: "Audiowide";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: white;
+}
+.main__container .main__faq-wrapper .main__faq-label-and-img-wrapper .main__faq-label_gray-part {
+  color: #a8a8a8;
+}
+.main__container .main__faq-wrapper .main__faq-label-and-img-wrapper .main__faq-img {
+  width: 100%;
+  height: auto;
+}
+.main__container .main__faq-wrapper .main__faq-questions-wrapper {
+  max-width: 580px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
 
 /* font "DM Mono" */
 @font-face {
@@ -491,6 +567,13 @@
   /* Trying to find out that font in system */
   src: local("Inter"), url(../../fonts/Inter-Regular/Inter-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Inter-Regular/Inter-Regular.otf) format("otf"), url(../../fonts/Inter-Regular/Inter-Regular.svg#Inter-Regular) format("svg"), url(../../fonts/Inter-Regular/Inter-Regular.ttf) format("truetype"), url(../../fonts/Inter-Regular/Inter-Regular.woff) format("woff"), url(../../fonts/Inter-Regular/Inter-Regular.woff2) format("woff2");
 }
+.main__container .main__nft-wrapper, .main__container .main__artists-wrapper, .main__container .main__story-wrapper, .main__container .main__partners-wrapper, .main__container .main__partners-wrapper .main__partners-cards-wrapper, .main__container .main__faq-wrapper {
+  max-width: 1160px;
+  width: 100%;
+  margin-top: 0;
+  margin-inline: auto;
+}
+
 .global-container {
   max-width: 1440px;
   width: 100%;
@@ -695,4 +778,35 @@
   width: 1px;
   height: 40px;
   background-color: #8dfd1b;
+}
+
+.partner-card__partner-logo {
+  max-width: 322px;
+  width: 100%;
+  height: auto;
+}
+
+.faq-question {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 22px 35px 20px 31px;
+  background-color: #222222;
+}
+.faq-question__question {
+  margin-bottom: 10px;
+  font-family: "DM Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+}
+.faq-question__answer {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  color: #c4c4c4;
 }/*# sourceMappingURL=glStyle.css.map */
