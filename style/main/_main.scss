@@ -1,6 +1,7 @@
 @import "../vars/vars";
 
 .main {
+  padding-bottom: 91px;
   background-color: black;
   &__container {
     max-width: 1440px;
@@ -38,27 +39,7 @@
           color: white;
         }
         .main__record-btn {
-          max-width: 204px;
-          padding: 20px 39px;
-          font-family: "DM Mono";
-          font-style: normal;
-          font-weight: 400;
-          font-size: 16px;
-          line-height: 16px;
-          text-align: center;
-          text-transform: capitalize;
-          color: black;
-          background-color: $light-green;
-          border: none;
-          cursor: pointer;
-          transition: 0.3s;
-          &:hover {
-            transform: scale(1.2);
-          }
-          &:active {
-            transition: 0s;
-            color: white;
-          }
+          @include btn(204px, 20px 39px, 20px, black, $light-green);
         }
       }
       .main__record-img-wrapper {
@@ -131,31 +112,8 @@
         line-height: 26px;
         color: white;
       }
-      .main__nft-button {
-        max-width: 246px;
-        width: 100%;
-        padding: 13px 33px;
-        font-family: "DM Mono";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 16px;
-        text-align: center;
-        text-transform: capitalize;
-        color: white;
-        background-color: black;
-        border: 1px solid $light-green;
-        cursor: pointer;
-        transition: 0.3s;
-        &:hover {
-          transform: scale(1.2);
-          color: black;
-          background-color: $light-green;
-        }
-        &:active {
-          transition: 0s;
-          color: white;
-        }
+      .main__nft-btn {
+        @include btn(246px, 13px 33px, 25px, white, black);
       }
     }
     .main__artists-label {
@@ -386,6 +344,7 @@
         width: 100%;
         display: flex;
         flex-direction: column;
+        justify-content: center;
       }
     }
     .main__team-label {
@@ -400,11 +359,66 @@
       color: white;
     }
     .main__team-wrapper {
-        min-height: 552px;
-        @extend %default-wrapper;
-        margin-bottom: 145px;
+      min-height: 552px;
+      @extend %default-wrapper;
+      margin-bottom: 145px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .main__join-discord-wrapper {
+      min-height: 584px;
+      @extend %default-wrapper;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .main__join-discord-text-wrapper {
+        max-width: 340px;
+        width: 100%;
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: flex-start;
+        .main__join-discord-label {
+          margin-bottom: 30px;
+          font-family: "Audiowide";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 51px;
+          line-height: 61px;
+          text-transform: uppercase;
+          color: white;
+          &_green {
+            color: $light-green;
+          }
+        }
+        .main__join-discord-text {
+          margin-bottom: 84px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 26px;
+          color: white;
+        }
+        .main__join-discord-btn {
+          @include btn(212px, 12px 32px, 21px, black, $light-green);
+          .main__join-discord-btn-content {
+            max-width: 148px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .main__join-discord-btn-icon {
+              width: 20px;
+              height: 20px;
+            }
+          }
+        }
+      }
+      .main__join-discord-img {
+        max-width: 580px;
+        width: 100%;
+        height: auto;
+      }
     }
   }
 }

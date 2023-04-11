@@ -22,7 +22,7 @@
   /* Trying to find out that font in system */
   src: local("Inter"), url(../../fonts/Inter-Regular/Inter-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Inter-Regular/Inter-Regular.otf) format("otf"), url(../../fonts/Inter-Regular/Inter-Regular.svg#Inter-Regular) format("svg"), url(../../fonts/Inter-Regular/Inter-Regular.ttf) format("truetype"), url(../../fonts/Inter-Regular/Inter-Regular.woff) format("woff"), url(../../fonts/Inter-Regular/Inter-Regular.woff2) format("woff2");
 }
-.main__container .main__team-wrapper, .main__container .main__faq-wrapper, .main__container .main__partners-wrapper .main__partners-cards-wrapper, .main__container .main__partners-wrapper, .main__container .main__story-wrapper, .main__container .main__artists-wrapper, .main__container .main__nft-wrapper {
+.main__container .main__join-discord-wrapper, .main__container .main__team-wrapper, .main__container .main__faq-wrapper, .main__container .main__partners-wrapper .main__partners-cards-wrapper, .main__container .main__partners-wrapper, .main__container .main__story-wrapper, .main__container .main__artists-wrapper, .main__container .main__nft-wrapper {
   max-width: 1160px;
   width: 100%;
   margin-top: 0;
@@ -53,7 +53,7 @@
   /* Trying to find out that font in system */
   src: local("Inter"), url(../../fonts/Inter-Regular/Inter-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Inter-Regular/Inter-Regular.otf) format("otf"), url(../../fonts/Inter-Regular/Inter-Regular.svg#Inter-Regular) format("svg"), url(../../fonts/Inter-Regular/Inter-Regular.ttf) format("truetype"), url(../../fonts/Inter-Regular/Inter-Regular.woff) format("woff"), url(../../fonts/Inter-Regular/Inter-Regular.woff2) format("woff2");
 }
-.main__container .main__team-wrapper, .main__container .main__faq-wrapper, .main__container .main__partners-wrapper .main__partners-cards-wrapper, .main__container .main__partners-wrapper, .main__container .main__story-wrapper, .main__container .main__artists-wrapper, .main__container .main__nft-wrapper {
+.main__container .main__join-discord-wrapper, .main__container .main__team-wrapper, .main__container .main__faq-wrapper, .main__container .main__partners-wrapper .main__partners-cards-wrapper, .main__container .main__partners-wrapper, .main__container .main__story-wrapper, .main__container .main__artists-wrapper, .main__container .main__nft-wrapper {
   max-width: 1160px;
   width: 100%;
   margin-top: 0;
@@ -150,7 +150,7 @@
   /* Trying to find out that font in system */
   src: local("Inter"), url(../../fonts/Inter-Regular/Inter-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Inter-Regular/Inter-Regular.otf) format("otf"), url(../../fonts/Inter-Regular/Inter-Regular.svg#Inter-Regular) format("svg"), url(../../fonts/Inter-Regular/Inter-Regular.ttf) format("truetype"), url(../../fonts/Inter-Regular/Inter-Regular.woff) format("woff"), url(../../fonts/Inter-Regular/Inter-Regular.woff2) format("woff2");
 }
-.main__container .main__team-wrapper, .main__container .main__faq-wrapper, .main__container .main__partners-wrapper .main__partners-cards-wrapper, .main__container .main__partners-wrapper, .main__container .main__story-wrapper, .main__container .main__artists-wrapper, .main__container .main__nft-wrapper {
+.main__container .main__join-discord-wrapper, .main__container .main__team-wrapper, .main__container .main__faq-wrapper, .main__container .main__partners-wrapper .main__partners-cards-wrapper, .main__container .main__partners-wrapper, .main__container .main__story-wrapper, .main__container .main__artists-wrapper, .main__container .main__nft-wrapper {
   max-width: 1160px;
   width: 100%;
   margin-top: 0;
@@ -158,6 +158,7 @@
 }
 
 .main {
+  padding-bottom: 91px;
   background-color: black;
 }
 .main__container {
@@ -200,7 +201,9 @@
 }
 .main__container .main__record-section-wrapper .main__record-info-wrapper .main__record-btn {
   max-width: 204px;
+  width: 100%;
   padding: 20px 39px;
+  margin-left: 20px;
   font-family: "DM Mono";
   font-style: normal;
   font-weight: 400;
@@ -210,12 +213,14 @@
   text-transform: capitalize;
   color: black;
   background-color: #8dfd1b;
-  border: none;
+  border: 1px solid #8dfd1b;
   cursor: pointer;
   transition: 0.3s;
 }
 .main__container .main__record-section-wrapper .main__record-info-wrapper .main__record-btn:hover {
   transform: scale(1.2);
+  color: black;
+  background-color: #8dfd1b;
 }
 .main__container .main__record-section-wrapper .main__record-info-wrapper .main__record-btn:active {
   transition: 0s;
@@ -290,10 +295,11 @@
 .main__container .main__nft-wrapper .main__nft-text_last {
   margin-bottom: 36px;
 }
-.main__container .main__nft-wrapper .main__nft-button {
+.main__container .main__nft-wrapper .main__nft-btn {
   max-width: 246px;
   width: 100%;
   padding: 13px 33px;
+  margin-left: 25px;
   font-family: "DM Mono";
   font-style: normal;
   font-weight: 400;
@@ -307,12 +313,12 @@
   cursor: pointer;
   transition: 0.3s;
 }
-.main__container .main__nft-wrapper .main__nft-button:hover {
+.main__container .main__nft-wrapper .main__nft-btn:hover {
   transform: scale(1.2);
   color: black;
   background-color: #8dfd1b;
 }
-.main__container .main__nft-wrapper .main__nft-button:active {
+.main__container .main__nft-wrapper .main__nft-btn:active {
   transition: 0s;
   color: white;
 }
@@ -541,6 +547,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .main__container .main__team-label {
   margin-bottom: 120px;
@@ -558,6 +565,84 @@
   margin-bottom: 145px;
   display: flex;
   justify-content: space-between;
+}
+.main__container .main__join-discord-wrapper {
+  min-height: 584px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main__container .main__join-discord-wrapper .main__join-discord-text-wrapper {
+  max-width: 340px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.main__container .main__join-discord-wrapper .main__join-discord-text-wrapper .main__join-discord-label {
+  margin-bottom: 30px;
+  font-family: "Audiowide";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 51px;
+  line-height: 61px;
+  text-transform: uppercase;
+  color: white;
+}
+.main__container .main__join-discord-wrapper .main__join-discord-text-wrapper .main__join-discord-label_green {
+  color: #8dfd1b;
+}
+.main__container .main__join-discord-wrapper .main__join-discord-text-wrapper .main__join-discord-text {
+  margin-bottom: 84px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: white;
+}
+.main__container .main__join-discord-wrapper .main__join-discord-text-wrapper .main__join-discord-btn {
+  max-width: 212px;
+  width: 100%;
+  padding: 12px 32px;
+  margin-left: 21px;
+  font-family: "DM Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: capitalize;
+  color: black;
+  background-color: #8dfd1b;
+  border: 1px solid #8dfd1b;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.main__container .main__join-discord-wrapper .main__join-discord-text-wrapper .main__join-discord-btn:hover {
+  transform: scale(1.2);
+  color: black;
+  background-color: #8dfd1b;
+}
+.main__container .main__join-discord-wrapper .main__join-discord-text-wrapper .main__join-discord-btn:active {
+  transition: 0s;
+  color: white;
+}
+.main__container .main__join-discord-wrapper .main__join-discord-text-wrapper .main__join-discord-btn .main__join-discord-btn-content {
+  max-width: 148px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main__container .main__join-discord-wrapper .main__join-discord-text-wrapper .main__join-discord-btn .main__join-discord-btn-content .main__join-discord-btn-icon {
+  width: 20px;
+  height: 20px;
+}
+.main__container .main__join-discord-wrapper .main__join-discord-img {
+  max-width: 580px;
+  width: 100%;
+  height: auto;
 }
 
 /* font "DM Mono" */
@@ -584,7 +669,7 @@
   /* Trying to find out that font in system */
   src: local("Inter"), url(../../fonts/Inter-Regular/Inter-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Inter-Regular/Inter-Regular.otf) format("otf"), url(../../fonts/Inter-Regular/Inter-Regular.svg#Inter-Regular) format("svg"), url(../../fonts/Inter-Regular/Inter-Regular.ttf) format("truetype"), url(../../fonts/Inter-Regular/Inter-Regular.woff) format("woff"), url(../../fonts/Inter-Regular/Inter-Regular.woff2) format("woff2");
 }
-.main__container .main__nft-wrapper, .main__container .main__artists-wrapper, .main__container .main__story-wrapper, .main__container .main__partners-wrapper, .main__container .main__partners-wrapper .main__partners-cards-wrapper, .main__container .main__faq-wrapper, .main__container .main__team-wrapper {
+.main__container .main__nft-wrapper, .main__container .main__artists-wrapper, .main__container .main__story-wrapper, .main__container .main__partners-wrapper, .main__container .main__partners-wrapper .main__partners-cards-wrapper, .main__container .main__faq-wrapper, .main__container .main__team-wrapper, .main__container .main__join-discord-wrapper {
   max-width: 1160px;
   width: 100%;
   margin-top: 0;
@@ -791,6 +876,12 @@
   line-height: 26px;
   color: white;
 }
+.roadmap-card .roadmap-card__wrapper .roadmap-card__bottom-line-wrapper .roadmap-card__all-text-wrapper .roadmap-card__text_green {
+  text-decoration: none;
+  font-family: "DM Mono";
+  font-size: 12px;
+  color: #8dfd1b;
+}
 .roadmap-card .roadmap-card__wrapper .roadmap-card__bottom-line-wrapper .roadmap-card__img {
   max-width: 129px;
   width: 100%;
@@ -810,6 +901,7 @@
 }
 
 .faq-question {
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

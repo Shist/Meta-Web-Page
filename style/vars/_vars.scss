@@ -81,3 +81,31 @@ $faq-text: #c4c4c4;
   margin-top: 0;
   margin-inline: auto;
 }
+
+@mixin btn($max-width, $padding, $margin-left, $text-color, $bg-color) {
+  max-width: $max-width;
+  width: 100%;
+  padding: $padding;
+  margin-left: $margin-left;
+  font-family: "DM Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: capitalize;
+  color: $text-color;
+  background-color: $bg-color;
+  border: 1px solid $light-green;
+  cursor: pointer;
+  transition: 0.3s;
+  &:hover {
+    transform: scale(1.2);
+    color: black;
+    background-color: $light-green;
+  }
+  &:active {
+    transition: 0s;
+    color: white;
+  }
+}
