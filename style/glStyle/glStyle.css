@@ -22,12 +22,102 @@
   /* Trying to find out that font in system */
   src: local("Inter"), url(../../fonts/Inter-Regular/Inter-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Inter-Regular/Inter-Regular.otf) format("otf"), url(../../fonts/Inter-Regular/Inter-Regular.svg#Inter-Regular) format("svg"), url(../../fonts/Inter-Regular/Inter-Regular.ttf) format("truetype"), url(../../fonts/Inter-Regular/Inter-Regular.woff) format("woff"), url(../../fonts/Inter-Regular/Inter-Regular.woff2) format("woff2");
 }
-.global-container {
+/* font "DM Mono" */
+@font-face {
+  font-family: "DM Mono";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/DMMono-Regular/DMMono-Regular.eot);
+  /* Trying to find out that font in system */
+  src: local("DM Mono"), url(../../fonts/DMMono-Regular/DMMono-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/DMMono-Regular/DMMono-Regular.otf) format("otf"), url(../../fonts/DMMono-Regular/DMMono-Regular.svg#DMMono-Regular) format("svg"), url(../../fonts/DMMono-Regular/DMMono-Regular.ttf) format("truetype"), url(../../fonts/DMMono-Regular/DMMono-Regular.woff) format("woff"), url(../../fonts/DMMono-Regular/DMMono-Regular.woff2) format("woff2");
+}
+/* font "Audiowide" */
+@font-face {
+  font-family: "Audiowide";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Audiowide-Regular/Audiowide-Regular.eot);
+  /* Trying to find out that font in system */
+  src: local("Audiowide"), url(../../fonts/Audiowide-Regular/Audiowide-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Audiowide-Regular/Audiowide-Regular.otf) format("otf"), url(../../fonts/Audiowide-Regular/Audiowide-Regular.svg#Audiowide-Regular) format("svg"), url(../../fonts/Audiowide-Regular/Audiowide-Regular.ttf) format("truetype"), url(../../fonts/Audiowide-Regular/Audiowide-Regular.woff) format("woff"), url(../../fonts/Audiowide-Regular/Audiowide-Regular.woff2) format("woff2");
+}
+/* font "Inter" */
+@font-face {
+  font-family: "Inter";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Inter-Regular/Inter-Regular.eot);
+  /* Trying to find out that font in system */
+  src: local("Inter"), url(../../fonts/Inter-Regular/Inter-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Inter-Regular/Inter-Regular.otf) format("otf"), url(../../fonts/Inter-Regular/Inter-Regular.svg#Inter-Regular) format("svg"), url(../../fonts/Inter-Regular/Inter-Regular.ttf) format("truetype"), url(../../fonts/Inter-Regular/Inter-Regular.woff) format("woff"), url(../../fonts/Inter-Regular/Inter-Regular.woff2) format("woff2");
+}
+.header {
+  background-color: black;
+}
+.header__container {
   max-width: 1440px;
   width: 100%;
-  margin: 0 auto;
+}
+.header__navigation {
+  padding: 34px 140px;
+  display: flex;
+  justify-content: flex-start;
+}
+.header__navigation .header__logo {
+  display: inline-block;
+  width: 123px;
+  height: 32px;
+  margin-right: 40px;
+}
+.header__navigation .header__nav-socials-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.header__navigation .header__nav-socials-wrapper .header__nav {
+  max-width: 350px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.header__navigation .header__nav-socials-wrapper .header__nav .header__nav-list {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+.header__navigation .header__nav-socials-wrapper .header__nav .header__nav-list .header__nav-list-item {
+  flex-basis: 30%;
+}
+.header__navigation .header__nav-socials-wrapper .header__nav .header__nav-list .header__nav-list-item .header__link {
+  text-decoration: none;
+  font-family: "DM Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
 }
 
+/* font "DM Mono" */
+@font-face {
+  font-family: "DM Mono";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/DMMono-Regular/DMMono-Regular.eot);
+  /* Trying to find out that font in system */
+  src: local("DM Mono"), url(../../fonts/DMMono-Regular/DMMono-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/DMMono-Regular/DMMono-Regular.otf) format("otf"), url(../../fonts/DMMono-Regular/DMMono-Regular.svg#DMMono-Regular) format("svg"), url(../../fonts/DMMono-Regular/DMMono-Regular.ttf) format("truetype"), url(../../fonts/DMMono-Regular/DMMono-Regular.woff) format("woff"), url(../../fonts/DMMono-Regular/DMMono-Regular.woff2) format("woff2");
+}
+/* font "Audiowide" */
+@font-face {
+  font-family: "Audiowide";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Audiowide-Regular/Audiowide-Regular.eot);
+  /* Trying to find out that font in system */
+  src: local("Audiowide"), url(../../fonts/Audiowide-Regular/Audiowide-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Audiowide-Regular/Audiowide-Regular.otf) format("otf"), url(../../fonts/Audiowide-Regular/Audiowide-Regular.svg#Audiowide-Regular) format("svg"), url(../../fonts/Audiowide-Regular/Audiowide-Regular.ttf) format("truetype"), url(../../fonts/Audiowide-Regular/Audiowide-Regular.woff) format("woff"), url(../../fonts/Audiowide-Regular/Audiowide-Regular.woff2) format("woff2");
+}
+/* font "Inter" */
+@font-face {
+  font-family: "Inter";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Inter-Regular/Inter-Regular.eot);
+  /* Trying to find out that font in system */
+  src: local("Inter"), url(../../fonts/Inter-Regular/Inter-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Inter-Regular/Inter-Regular.otf) format("otf"), url(../../fonts/Inter-Regular/Inter-Regular.svg#Inter-Regular) format("svg"), url(../../fonts/Inter-Regular/Inter-Regular.ttf) format("truetype"), url(../../fonts/Inter-Regular/Inter-Regular.woff) format("woff"), url(../../fonts/Inter-Regular/Inter-Regular.woff2) format("woff2");
+}
 /* font "DM Mono" */
 @font-face {
   font-family: "DM Mono";
@@ -58,62 +148,46 @@
   margin: 0 auto;
 }
 
-/* font "DM Mono" */
-@font-face {
-  font-family: "DM Mono";
-  /* IE9 Compat Modes */
-  src: url(../../fonts/DMMono-Regular/DMMono-Regular.eot);
-  /* Trying to find out that font in system */
-  src: local("DM Mono"), url(../../fonts/DMMono-Regular/DMMono-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/DMMono-Regular/DMMono-Regular.otf) format("otf"), url(../../fonts/DMMono-Regular/DMMono-Regular.svg#DMMono-Regular) format("svg"), url(../../fonts/DMMono-Regular/DMMono-Regular.ttf) format("truetype"), url(../../fonts/DMMono-Regular/DMMono-Regular.woff) format("woff"), url(../../fonts/DMMono-Regular/DMMono-Regular.woff2) format("woff2");
-}
-/* font "Audiowide" */
-@font-face {
-  font-family: "Audiowide";
-  /* IE9 Compat Modes */
-  src: url(../../fonts/Audiowide-Regular/Audiowide-Regular.eot);
-  /* Trying to find out that font in system */
-  src: local("Audiowide"), url(../../fonts/Audiowide-Regular/Audiowide-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Audiowide-Regular/Audiowide-Regular.otf) format("otf"), url(../../fonts/Audiowide-Regular/Audiowide-Regular.svg#Audiowide-Regular) format("svg"), url(../../fonts/Audiowide-Regular/Audiowide-Regular.ttf) format("truetype"), url(../../fonts/Audiowide-Regular/Audiowide-Regular.woff) format("woff"), url(../../fonts/Audiowide-Regular/Audiowide-Regular.woff2) format("woff2");
-}
-/* font "Inter" */
-@font-face {
-  font-family: "Inter";
-  /* IE9 Compat Modes */
-  src: url(../../fonts/Inter-Regular/Inter-Regular.eot);
-  /* Trying to find out that font in system */
-  src: local("Inter"), url(../../fonts/Inter-Regular/Inter-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Inter-Regular/Inter-Regular.otf) format("otf"), url(../../fonts/Inter-Regular/Inter-Regular.svg#Inter-Regular) format("svg"), url(../../fonts/Inter-Regular/Inter-Regular.ttf) format("truetype"), url(../../fonts/Inter-Regular/Inter-Regular.woff) format("woff"), url(../../fonts/Inter-Regular/Inter-Regular.woff2) format("woff2");
-}
-.global-container {
-  max-width: 1440px;
+.socials {
+  max-width: 180px;
   width: 100%;
-  margin: 0 auto;
+}
+.socials .socials__list {
+  display: flex;
+  justify-content: space-between;
+}
+.socials .socials__list .socials__list-item {
+  width: 36px;
+  height: 36px;
 }
 
-/* font "DM Mono" */
-@font-face {
-  font-family: "DM Mono";
-  /* IE9 Compat Modes */
-  src: url(../../fonts/DMMono-Regular/DMMono-Regular.eot);
-  /* Trying to find out that font in system */
-  src: local("DM Mono"), url(../../fonts/DMMono-Regular/DMMono-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/DMMono-Regular/DMMono-Regular.otf) format("otf"), url(../../fonts/DMMono-Regular/DMMono-Regular.svg#DMMono-Regular) format("svg"), url(../../fonts/DMMono-Regular/DMMono-Regular.ttf) format("truetype"), url(../../fonts/DMMono-Regular/DMMono-Regular.woff) format("woff"), url(../../fonts/DMMono-Regular/DMMono-Regular.woff2) format("woff2");
+.social-link {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background-color: white;
 }
-/* font "Audiowide" */
-@font-face {
-  font-family: "Audiowide";
-  /* IE9 Compat Modes */
-  src: url(../../fonts/Audiowide-Regular/Audiowide-Regular.eot);
-  /* Trying to find out that font in system */
-  src: local("Audiowide"), url(../../fonts/Audiowide-Regular/Audiowide-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Audiowide-Regular/Audiowide-Regular.otf) format("otf"), url(../../fonts/Audiowide-Regular/Audiowide-Regular.svg#Audiowide-Regular) format("svg"), url(../../fonts/Audiowide-Regular/Audiowide-Regular.ttf) format("truetype"), url(../../fonts/Audiowide-Regular/Audiowide-Regular.woff) format("woff"), url(../../fonts/Audiowide-Regular/Audiowide-Regular.woff2) format("woff2");
+.social-link__twitter {
+  background-image: url(../../img/icons/icon-twitter.svg);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-/* font "Inter" */
-@font-face {
-  font-family: "Inter";
-  /* IE9 Compat Modes */
-  src: url(../../fonts/Inter-Regular/Inter-Regular.eot);
-  /* Trying to find out that font in system */
-  src: local("Inter"), url(../../fonts/Inter-Regular/Inter-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Inter-Regular/Inter-Regular.otf) format("otf"), url(../../fonts/Inter-Regular/Inter-Regular.svg#Inter-Regular) format("svg"), url(../../fonts/Inter-Regular/Inter-Regular.ttf) format("truetype"), url(../../fonts/Inter-Regular/Inter-Regular.woff) format("woff"), url(../../fonts/Inter-Regular/Inter-Regular.woff2) format("woff2");
+.social-link__discord {
+  background-image: url(../../img/icons/icon-discord.svg);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.global-container {
-  max-width: 1440px;
-  width: 100%;
-  margin: 0 auto;
+.social-link__youtube {
+  background-image: url(../../img/icons/icon-youtube.svg);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.social-link__telegram {
+  background-image: url(../../img/icons/icon-telegram.svg);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
 }/*# sourceMappingURL=glStyle.css.map */

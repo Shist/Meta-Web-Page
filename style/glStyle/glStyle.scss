@@ -2,3 +2,53 @@
 @import "../header/header.scss";
 @import "../main/main";
 @import "../footer/footer";
+
+.global-container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.socials {
+  max-width: 180px;
+  width: 100%;
+  .socials__list {
+    display: flex;
+    justify-content: space-between;
+    .socials__list-item {
+      width: 36px;
+      height: 36px;
+    }
+  }
+}
+
+.social-link {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background-color: white;
+  &__twitter {
+    background-image: url(../../img/icons/icon-twitter.svg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  &__discord {
+    background-image: url(../../img/icons/icon-discord.svg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  &__youtube {
+    background-image: url(../../img/icons/icon-youtube.svg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  &__telegram {
+    background-image: url(../../img/icons/icon-telegram.svg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
