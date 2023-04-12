@@ -15,5 +15,4 @@ https://user-images.githubusercontent.com/40572268/231316262-f8fb28b5-bb32-46ff-
 - SCSS
 - flex
 - grid
-- @media
-- others
+- @media queries
