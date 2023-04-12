@@ -12,7 +12,7 @@
 .socials {
   max-width: 180px;
   width: 100%;
-  @media (max-width: 980px) {
+  @media (max-width: $big-tablet) {
     display: none;
   }
   &__list {
@@ -74,8 +74,7 @@
   border-left: 2px solid $light-green;
   &__text {
     padding-left: 22px;
-    font-family: "DM Mono";
-    font-style: normal;
+    font-family: $font-label;
     font-weight: 400;
     font-size: 21px;
     line-height: 32px;
@@ -93,8 +92,7 @@
     margin-bottom: 20px;
   }
   &__name {
-    font-family: "DM Mono";
-    font-style: normal;
+    font-family: $font-label;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -130,8 +128,7 @@
         border: 1px solid $light-green;
         background-color: transparent;
         .roadmap-card__digit-num {
-          font-family: "DM Mono";
-          font-style: normal;
+          font-family: $font-label;
           font-weight: 400;
           font-size: 28px;
           line-height: 28px;
@@ -149,8 +146,7 @@
         flex-direction: column;
         justify-content: space-around;
         .roadmap-card__phase-label {
-          font-family: "DM Mono";
-          font-style: normal;
+          font-family: $font-label;
           font-weight: 400;
           font-size: 8px;
           line-height: 12px;
@@ -159,8 +155,7 @@
           color: $light-green;
         }
         .roadmap-card__phase-name {
-          font-family: "DM Mono";
-          font-style: normal;
+          font-family: $font-label;
           font-weight: 400;
           font-size: 16px;
           line-height: 28px;
@@ -186,8 +181,7 @@
           flex-direction: column;
           justify-content: space-between;
           .roadmap-card__centered-text {
-            font-family: "Inter";
-            font-style: normal;
+            font-family: $font-text;
             font-weight: 400;
             font-size: 11px;
             line-height: 32px;
@@ -195,15 +189,14 @@
           }
         }
         .roadmap-card__text {
-          font-family: "Inter";
-          font-style: normal;
+          font-family: $font-text;
           font-weight: 400;
           font-size: 11px;
           line-height: 26px;
           color: white;
           &_green {
             text-decoration: none;
-            font-family: "DM Mono";
+            font-family: $font-label;
             font-size: 12px;
             color: $light-green;
           }
@@ -213,7 +206,7 @@
         max-width: 129px;
         width: 100%;
         height: auto;
-        @media (max-width: 768px) {
+        @media (max-width: $small-tablet) {
           display: none;
         }
       }
@@ -241,13 +234,13 @@
 .faq-question {
   flex-grow: 1;
   display: flex;
-  @media (max-width: 980px) {
-    &_fouth{
+  @media (max-width: $big-tablet) {
+    &_fouth {
       display: none;
     }
   }
-  @media (max-width: 768px) {
-    &_third{
+  @media (max-width: $small-tablet) {
+    &_third {
       display: none;
     }
   }
@@ -257,16 +250,14 @@
   background-color: $cards-bg;
   &__question {
     margin-bottom: 10px;
-    font-family: "DM Mono";
-    font-style: normal;
+    font-family: $font-label;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: white;
   }
   &__answer {
-    font-family: "Inter";
-    font-style: normal;
+    font-family: $font-text;
     font-weight: 400;
     font-size: 12px;
     line-height: 19px;
@@ -288,8 +279,7 @@
   }
   &__name {
     margin-bottom: 18px;
-    font-family: "DM Mono";
-    font-style: normal;
+    font-family: $font-label;
     font-weight: 400;
     font-size: 21px;
     line-height: 28px;
@@ -299,8 +289,7 @@
   }
   &__role {
     margin-bottom: 22px;
-    font-family: "DM Mono";
-    font-style: normal;
+    font-family: $font-label;
     font-weight: 400;
     font-size: 11px;
     line-height: 12px;
@@ -311,8 +300,7 @@
   }
   &__description {
     max-width: 238px;
-    font-family: "Inter";
-    font-style: normal;
+    font-family: $font-text;
     font-weight: 400;
     font-size: 12px;
     line-height: 19px;

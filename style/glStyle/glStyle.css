@@ -133,7 +133,6 @@
   text-decoration: none;
   padding-inline: 4px;
   font-family: "DM Mono";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
@@ -235,7 +234,6 @@
 .main__container .main__record-section-wrapper .main__record-info-wrapper .main__record-headline {
   margin-bottom: 43px;
   font-family: "Audiowide";
-  font-style: normal;
   font-weight: 400;
   font-size: 51px;
   line-height: 61px;
@@ -251,7 +249,6 @@
   margin-bottom: 115px;
   max-width: 340px;
   font-family: "Inter";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -273,7 +270,6 @@
   padding: 20px 39px;
   margin-left: 20px;
   font-family: "DM Mono";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
@@ -344,7 +340,6 @@
 }
 .main__container .main__nft-wrapper .main__nft-upper-label {
   font-family: "Audiowide";
-  font-style: normal;
   font-weight: 400;
   font-size: 38px;
   line-height: 45px;
@@ -355,7 +350,6 @@
 .main__container .main__nft-wrapper .main__nft-bottom-label {
   margin-bottom: 41px;
   font-family: "Audiowide";
-  font-style: normal;
   font-weight: 400;
   font-size: 38px;
   line-height: 45px;
@@ -383,7 +377,6 @@
 .main__container .main__nft-wrapper .main__nft-text {
   margin-bottom: 17px;
   font-family: "Inter";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -401,7 +394,6 @@
   padding: 13px 33px;
   margin-left: 25px;
   font-family: "DM Mono";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
@@ -431,7 +423,6 @@
   margin-bottom: 120px;
   text-align: center;
   font-family: "Audiowide";
-  font-style: normal;
   font-weight: 400;
   font-size: 79px;
   line-height: 88px;
@@ -498,7 +489,6 @@
 .main__container .main__story-wrapper .main__story-headline {
   padding-bottom: 60px;
   font-family: "Audiowide";
-  font-style: normal;
   font-weight: 400;
   font-size: 37px;
   line-height: 45px;
@@ -533,7 +523,6 @@
 .main__container .main__story-wrapper .main__story-info-wrapper .main__story-menu-wrapper .main__story-menu-label {
   padding: 28px;
   font-family: "DM Mono";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
@@ -590,7 +579,6 @@
   max-width: 522px;
   margin-bottom: 17px;
   font-family: "Inter";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -680,7 +668,6 @@
 .main__container .main__gr-circles-and-roadmap-wrapper .main__roadmap-wrapper .main__roadmap-headline {
   margin-bottom: 61px;
   font-family: "Audiowide";
-  font-style: normal;
   font-weight: 400;
   font-size: 38px;
   line-height: 45px;
@@ -734,7 +721,6 @@
 .main__container .main__partners-wrapper .main__partners-label {
   margin-bottom: 48px;
   font-family: "DM Mono";
-  font-style: normal;
   font-weight: 400;
   font-size: 11px;
   line-height: 12px;
@@ -797,7 +783,6 @@
 }
 .main__container .main__faq-wrapper .main__faq-label-and-img-wrapper .main__faq-label {
   font-family: "Audiowide";
-  font-style: normal;
   font-weight: 400;
   font-size: 38px;
   line-height: 45px;
@@ -833,7 +818,6 @@
   margin-bottom: 83px;
   text-align: center;
   font-family: "Audiowide";
-  font-style: normal;
   font-weight: 400;
   font-size: 79px;
   line-height: 88px;
@@ -902,7 +886,6 @@
 .main__container .main__join-discord-wrapper .main__join-discord-text-wrapper .main__join-discord-label {
   margin-bottom: 30px;
   font-family: "Audiowide";
-  font-style: normal;
   font-weight: 400;
   font-size: 51px;
   line-height: 61px;
@@ -920,7 +903,6 @@
 .main__container .main__join-discord-wrapper .main__join-discord-text-wrapper .main__join-discord-text {
   margin-bottom: 84px;
   font-family: "Inter";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -937,7 +919,6 @@
   padding: 12px 32px;
   margin-left: 21px;
   font-family: "DM Mono";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
@@ -1057,7 +1038,6 @@
 }
 .footer__container .footer__logo-rights-wrapper .footer__copyrights {
   font-family: "DM Mono";
-  font-style: normal;
   font-weight: 400;
   font-size: 13px;
   line-height: 20px;
@@ -1088,7 +1068,6 @@
 .footer__container .footer__links-wrapper .footer__link {
   text-decoration: none;
   font-family: "DM Mono";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
@@ -1117,7 +1096,6 @@
 .footer__container .footer__text-info-wrapper .footer__text-info {
   margin-bottom: 29px;
   font-family: "DM Mono";
-  font-style: normal;
   font-weight: 400;
   font-size: 13px;
   line-height: 15px;
@@ -1202,7 +1180,6 @@
 .green-wrapper__text {
   padding-left: 22px;
   font-family: "DM Mono";
-  font-style: normal;
   font-weight: 400;
   font-size: 21px;
   line-height: 32px;
@@ -1221,7 +1198,6 @@
 }
 .artist-card__name {
   font-family: "DM Mono";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -1261,7 +1237,6 @@
 }
 .roadmap-card .roadmap-card__wrapper .roadmap-card__upper-line-wrapper .roadmap-card__digit-block .roadmap-card__digit-num {
   font-family: "DM Mono";
-  font-style: normal;
   font-weight: 400;
   font-size: 28px;
   line-height: 28px;
@@ -1280,7 +1255,6 @@
 }
 .roadmap-card .roadmap-card__wrapper .roadmap-card__upper-line-wrapper .roadmap-card__phase-info-wrapper .roadmap-card__phase-label {
   font-family: "DM Mono";
-  font-style: normal;
   font-weight: 400;
   font-size: 8px;
   line-height: 12px;
@@ -1290,7 +1264,6 @@
 }
 .roadmap-card .roadmap-card__wrapper .roadmap-card__upper-line-wrapper .roadmap-card__phase-info-wrapper .roadmap-card__phase-name {
   font-family: "DM Mono";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
@@ -1318,7 +1291,6 @@
 }
 .roadmap-card .roadmap-card__wrapper .roadmap-card__bottom-line-wrapper .roadmap-card__all-text-wrapper .roadmap-card__centered-text-wrapper .roadmap-card__centered-text {
   font-family: "Inter";
-  font-style: normal;
   font-weight: 400;
   font-size: 11px;
   line-height: 32px;
@@ -1326,7 +1298,6 @@
 }
 .roadmap-card .roadmap-card__wrapper .roadmap-card__bottom-line-wrapper .roadmap-card__all-text-wrapper .roadmap-card__text {
   font-family: "Inter";
-  font-style: normal;
   font-weight: 400;
   font-size: 11px;
   line-height: 26px;
@@ -1387,7 +1358,6 @@
 .faq-question__question {
   margin-bottom: 10px;
   font-family: "DM Mono";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -1395,7 +1365,6 @@
 }
 .faq-question__answer {
   font-family: "Inter";
-  font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 19px;
@@ -1418,7 +1387,6 @@
 .teammate-card__name {
   margin-bottom: 18px;
   font-family: "DM Mono";
-  font-style: normal;
   font-weight: 400;
   font-size: 21px;
   line-height: 28px;
@@ -1429,7 +1397,6 @@
 .teammate-card__role {
   margin-bottom: 22px;
   font-family: "DM Mono";
-  font-style: normal;
   font-weight: 400;
   font-size: 11px;
   line-height: 12px;
@@ -1441,7 +1408,6 @@
 .teammate-card__description {
   max-width: 238px;
   font-family: "Inter";
-  font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 19px;

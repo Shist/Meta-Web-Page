@@ -8,7 +8,7 @@
   }
   &__navigation {
     padding: 34px 140px;
-    @media (max-width: 768px) {
+    @media (max-width: $small-tablet) {
       padding: 35px;
     }
     display: flex;
@@ -18,7 +18,7 @@
       width: 123px;
       height: 32px;
       margin-right: 40px;
-      @media (max-width: 768px) {
+      @media (max-width: $small-tablet) {
         margin-right: 20px;
       }
     }
@@ -27,7 +27,7 @@
       height: 32px;
       cursor: pointer;
       display: none;
-      @media (max-width: 768px) {
+      @media (max-width: $small-tablet) {
         display: inline-block;
       }
     }
@@ -39,7 +39,7 @@
         max-width: 350px;
         width: 100%;
         display: flex;
-        @media (max-width: 768px) {
+        @media (max-width: $small-tablet) {
           display: none;
         }
         .header__nav-list {
@@ -58,8 +58,7 @@
               align-items: center;
               text-decoration: none;
               padding-inline: 4px;
-              font-family: "DM Mono";
-              font-style: normal;
+              font-family: $font-label;
               font-weight: 400;
               font-size: 16px;
               line-height: 16px;
