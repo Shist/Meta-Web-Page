@@ -914,6 +914,7 @@
   }
 }
 .main__container .main__join-discord-wrapper .main__join-discord-text-wrapper .main__join-discord-btn {
+  text-decoration: none;
   max-width: 212px;
   width: 100%;
   padding: 12px 32px;
