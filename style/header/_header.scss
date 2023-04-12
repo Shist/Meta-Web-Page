@@ -8,6 +8,9 @@
   }
   &__navigation {
     padding: 34px 140px;
+    @media (max-width: 768px) {
+      padding: 35px;
+    }
     display: flex;
     justify-content: flex-start;
     .header__logo {
@@ -15,6 +18,18 @@
       width: 123px;
       height: 32px;
       margin-right: 40px;
+      @media (max-width: 768px) {
+        margin-right: 20px;
+      }
+    }
+    .header__burger-menu-btn {
+      width: 32px;
+      height: 32px;
+      cursor: pointer;
+      display: none;
+      @media (max-width: 768px) {
+        display: inline-block;
+      }
     }
     .header__nav-socials-wrapper {
       width: 100%;
@@ -24,6 +39,9 @@
         max-width: 350px;
         width: 100%;
         display: flex;
+        @media (max-width: 768px) {
+          display: none;
+        }
         .header__nav-list {
           width: 100%;
           display: flex;
