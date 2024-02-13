@@ -18,6 +18,16 @@ https://user-images.githubusercontent.com/40572268/231316262-f8fb28b5-bb32-46ff-
 
 ---
 
+## Instruction for launching this project
+
+1. Go to the folder on your PC where you want to install the project:
+   `cd "your-folder"`
+1. Download and install files of this project:
+   `git clone https://github.com/Shist/Meta-Web-Page`
+1. Run index.html file with some server. You can use VS Code Live Server or [MAMP](https://www.mamp.info/en/windows/) for example.
+
+---
+
 ## Technologies used in the project
 
 - HTML
